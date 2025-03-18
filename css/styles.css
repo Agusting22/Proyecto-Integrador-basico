@@ -1,4 +1,4 @@
-* { /* selector universal -> Para todos los elementos html */
+* { 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -247,7 +247,7 @@ body{
     border: 1px solid #C84C05;
     width: 100%;
     height: 390px;
-    position: relative; /* Agregado para posicionar elementos hijos de forma absoluta */
+    position: relative; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -313,8 +313,57 @@ margin: 0 auto;
 
 
 /* ! Footer */
-.footer{
-    border: 1px solid red;
-    width: 150px;
+.footer {
+    margin-top: 50px;
+    background-color: #B59F78;
+    border: 1px solid #C84C05;
+    width: 100%;
     height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.id-iconos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.id-iconos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.id-iconos a i {
+    font-size: 24px;
+    color: gray;
+}
+
+.footer-lists {
+    display: flex;
+    position: relative;
+    gap: 30px;
+    height: 170px;
+    margin-left: 750px;
+    border: blue solid 1px;
+}
+.footer-ul{
+    color: white;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.footer-titulos{
+    color: red;
+
+}
+
+
